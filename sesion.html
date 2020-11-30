@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="shortcut icon" href="img/escudo.png" type="imge/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap" rel="stylesheet"> 	
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Josefin+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,300&family=Sriracha&display=swap" rel="stylesheet">
+	<title>Inicio de Sesion</title>
+</head>
+<body>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<header>
+				<div align="center" >
+					<img class="col-xs-4 col-sm-9 col-md-9 col-lg-9" src="img/logo.png" height="300">
+				</div>
+			</header>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-12">
+			<div class="menu">
+				<nav>
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="mantenimiento.html">Mantenimiento Preventivo - Correctivo</a></li>
+						<li><a href="sesion.html">Inicio de Sesion</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="wrap">
+			<h2>Inicio de Sesion</h2>
+			<form action="" class="formulario" id="formulario">
+
+				<div class="formulario__grupo" id="grupo__usuario">
+					<label for="usuario" class="formulario__label">Usuario</label>
+					<div class="formulario__grupo-input">
+						<input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="john123" autocomplete="off">
+						<i class="formulario__validacion-estado fas fa-times-circle"></i>
+					</div>
+					<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+				</div>
+
+				<div class="formulario__grupo" id="grupo__password">
+					<label for="password" class="formulario__label">Contraseña</label>
+					<div class="formulario__grupo-input">
+						<input type="password" class="formulario__input" name="password" id="password3">
+						<i class="formulario__validacion-estado fas fa-times-circle"></i>
+					</div>
+					<p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos.</p>
+				</div>
+
+				<div class="formulario__grupo formulario__grupo-btn-enviar">
+					<button type="submit" class="formulario__btn">Ingresar</button>
+				</div>
+			</form>
+			<p class="redireccion">¿Ya tienes una cuenta? <a href="registro.html">Ingresa aqui.</a></p>
+		</div>
+	</div>
+	
+	<script src="js/formulario.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<footer>
+		<p>Realizado por <br> Cristian Camargo V-26.767.684 <br> Genesis Perez V-27.353.914 <br> SID1A <br> &copy; 2020 - Todos los derechos reservados </p>
+	</footer>
+	
+</body>
+</html>
